@@ -1,0 +1,316 @@
+
+@media (max-width:600px){
+    .nav-links{
+        flex-wrap: wrap;
+    }
+    body{
+        width: auto;
+        height: auto;
+    }
+}
+
+
+@keyframes typing {
+    from { width: 0 }
+    to { width: 768px}
+  }
+  
+
+  :root{
+    --green:rgb(60, 248, 60);
+    
+  }
+
+
+
+
+body{
+    background-color: rgb(255, 255, 255);
+    overflow-x: hidden; 
+
+
+    
+}
+
+
+.nav-bar{
+    background-color: rgb(60, 248, 60);
+    padding: 0;
+    margin: 0;
+    
+}
+
+
+.nav-links>ul   {
+    list-style-type: none;
+    display:flex;
+    justify-content: flex-end;
+    justify-content: space-evenly;
+    margin:10px;
+    padding:14px;
+    
+
+
+
+
+}
+
+.nav-links>ul>li>a{
+    text-decoration: none;
+    color:rgb(255, 255, 255);
+}
+
+
+
+
+.center-img{
+    display: flex;
+    justify-content:  center;
+    align-content: center;  
+    border:3px solid rgb(60, 248, 60);
+    padding:0;
+    margin:0;
+    background-attachment: fixed;
+}
+
+.sec1>img{
+    position: relative;
+    top:30px;
+    left:100px;
+    border: 6px solid rgb(60, 248, 60);
+    border-radius:100%;
+    padding:0;
+    margin:0;
+
+}
+
+.sec1>p:nth-child(2){
+    color:rgb(60, 248, 60);
+    position:relative;
+    left:500px;
+    top:-240px;
+    font-family: "Briem Hand";
+    font-size: 40px;
+    width: 0;
+    animation: typing 4s forwards;
+    overflow: hidden;
+    border-right: .15em solid rgb(60, 248, 60);
+    white-space: nowrap;
+    
+    
+}
+
+.sec1>p:nth-child(3){
+    color:rgb(60, 248, 60);
+    position:relative;
+    left:500px;
+    top:-230px;
+    font-family: "Caveat";
+    font-size: 30px;
+    text-indent: 50px;
+    animation: typing 4s forwards;
+    animation-delay: 1.5s;
+    overflow: hidden;
+    border-right: 1px solid rgb(60, 248, 60);
+    width:0;
+    white-space: nowrap;
+}
+
+
+.sec1>p:nth-child(4){
+    color:rgb(60, 248, 60);
+    position:relative;
+    left:500px;
+    top:-240px;
+    font-family: "Caveat";
+    font-size: 30px;
+    text-indent: 50px;
+    width:0;
+    overflow: hidden;
+    animation: typing 4s forwards;
+    animation-delay: 1.6s;
+    border-right: 1px solid rgb(60, 248, 60);
+    white-space: nowrap;
+}
+
+#features>h2{
+    position: relative;
+    top:-190px;
+    display:flex;
+    justify-content: center;
+    font-family: "Lobster";
+    font-size: 100px;
+    color:var(--green);
+}
+
+
+
+.box{
+    width:300px;
+    height:300px;
+    background-color:rgb(201, 201, 201);
+    padding:0;
+    margin:0;
+}
+
+
+
+
+.box1{
+    position: relative;
+    top:-230px;
+
+
+}
+.box1:hover{
+    
+    transform: scale(1.3);
+}
+
+.box1>img{
+    position: relative;
+    left:100px;
+    padding-top:30px;
+}
+
+.box1>p{
+    color:black;
+    font-size: 20px;
+}
+
+.box1>p:nth-child(2){
+    display: flex;
+    justify-content: center;
+}
+
+.box1>p:last-of-type{
+    text-align: center;
+    font-family: "Dosis";
+}
+
+
+.box2{
+    position: relative;
+    top:-230px;
+    left:350px;
+}
+
+.box2>img{
+    position: relative;
+    left:100px;
+    padding-top: 30px;
+}
+
+
+.box2>p{
+    color:black;
+    font-size: 20px;
+}
+
+.box2>p:nth-child(2){
+    display: flex;
+    justify-content: center;
+}
+
+.box2>p:last-of-type{
+    text-align: center;
+    font-family: "Dosis";
+}
+.box2:hover{
+    
+    transform: scale(1.3);
+}
+
+
+.box3{
+    position: relative;
+    top:-820px;
+    left:700px;
+}
+
+.box3>img{
+    position: relative;
+    left:100px;
+    padding-top: 30px;
+}
+
+
+.box3>p{
+    color:black;
+    font-size: 20px;
+}
+
+.box3>p:nth-child(2){
+    display: flex;
+    justify-content: center;
+}
+
+.box3>p:last-of-type{
+    text-align: center;
+    font-family: "Dosis";
+}
+.box3:hover{
+    
+    transform: scale(1.3);
+}
+
+
+
+
+.box4{
+    position: relative;
+    top:-825px;
+    left:1030px;
+}
+
+.box4>img{
+    position: relative;
+    left:100px;
+    padding-top: 26px;
+}
+
+
+.box4>p{
+    color:black;
+    font-size: 20px;
+}
+
+.box4>p:nth-child(2){
+    display: flex;
+    justify-content: center;
+}
+
+.box4>p:last-of-type{
+    text-align: center;
+    font-family: "Dosis";
+}
+.box4:hover{
+    
+    transform: scale(1.3);
+}
+
+
+.io{
+    position: relative;
+    top:-700px;
+    color: var(--green);
+}
+
+.foot{
+    position: relative;
+    top:-700px;
+    left:370px;
+    font-family: "Dosis";
+    font-size: 50px;
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+}
+
+.foot>a{
+    text-decoration: none;
+    color:black;
+}
+
+.foot>a:hover{
+    color:var(--green)
+}
